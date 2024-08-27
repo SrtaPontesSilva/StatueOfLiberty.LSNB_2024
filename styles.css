@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1e3c72;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ajuste de cores para a caixa principal */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Fundo mais translúcido */
+    padding: 30px; /* Mais espaçamento interno */
+    margin: 50px;
+}
+
+/* Título Principal */
+h1 {
+    font-size: 2em; /* Reduzido para 2em */
+    margin-bottom: 20px;
+    text-align: center; /* Centralizado */
+    color: #ffd700; /* Cor dourada para destacar */
+}
+
+/* Subtítulos das Seções */
+h2 {
+    font-size: 1.5em; /* Reduzido para 1.5em */
+    margin-bottom: 20px;
+    text-align: center; /* Centralizado */
+    color: #f0e68c; /* Um tom suave de amarelo para contraste */
+}
+
+/* Subtítulos das Caixas de Informação */
+.info-box h3, #the-new-colossus h3 {
+    font-size: 1.2em; /* Reduzido para 1.2em */
+    margin: 0;
+    text-align: center; /* Centralizado */
+}
+
+/* Texto Geral */
+p {
+    font-size: 1em; /* Reduzido para 1em */
+    line-height: 1.4; /* Ajustado para 1.4 */
+}
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    gap: 30px; /* Aumentar o espaço entre os elementos */
+}
+
+.info-box {
+    position: relative;
+    background: rgba(68, 68, 68, 0.8);
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para o texto dentro das caixas de informação */
+.info-box p {
+    display: none;
+    font-size: 1em; /* Ajustado para 1em */
+    margin-top: 10px;
+}
+
+/* Alteração das cores e efeitos */
+.info-box:hover {
+    background-color: #64dfdf; /* Cor de fundo vibrante */
+    transform: scale(1.1) rotate(-2deg); /* Efeito de rotação leve */
+    color: #023047; /* Cor do texto */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+}
+
+/* Ajuste de cores para o fundo */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradiente de fundo */
+}
+
+.info-box:hover p {
+    display: block;
+}
+
+#3d-model {
+    margin: 30px auto; /* Centraliza o container horizontalmente */
+    text-align: center; /* Centraliza o conteúdo interno */
+    width: 100%;
+    max-width: 640px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#3d-model iframe {
+    display: block; /* Garante que o iframe seja tratado como bloco */
+    margin: 0 auto; /* Centraliza o iframe horizontalmente */
+    width: 100%; /* Ajusta a largura do iframe ao container */
+    max-width: 100%; /* Garante que o iframe não ultrapasse o container */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+}
+
+#3d-model h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Reduzido para 1.5em */
+    text-align: center; /* Centralizado */
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Cor vibrante no hover */
+    transform: scale(1.05); /* Leve aumento no tamanho */
+}
+
+#the-new-colossus {
+    margin: 60px auto; /* Centraliza o poema horizontalmente */
+    padding: 15px; /* Reduzido para 15px */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Centralizado o conteúdo */
+    max-width: 800px;
+    width: 90%; /* Responsivo */
+}
+
+#the-new-colossus h2 {
+    font-size: 1.5em; /* Reduzido para 1.5em */
+    margin-bottom: 20px;
+}
+
+#the-new-colossus p {
+    font-size: 0.9em; /* Reduzido para 0.9em */
+    line-height: 1.2; /* Ajustado para 1.2 */
+    white-space: pre-line;
+    text-align: justify; /* Justificado para melhor organização */
+    margin: 20px auto 0; /* Adiciona um espaçamento entre o subtítulo e o poema */
+    max-width: 100%;
+}
